@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10B38EE20AC0C1E0085D8CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B38ED20AC0C1E0085D8CA /* AppDelegate.m */; };
+		B10B38F120AC0C1E0085D8CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B38F020AC0C1E0085D8CA /* ViewController.m */; };
+		B10B38F420AC0C1E0085D8CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10B38F220AC0C1E0085D8CA /* Main.storyboard */; };
+		B10B38F620AC0C1E0085D8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10B38F520AC0C1E0085D8CA /* Assets.xcassets */; };
+		B10B38F920AC0C1E0085D8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10B38F720AC0C1E0085D8CA /* LaunchScreen.storyboard */; };
+		B10B38FC20AC0C1E0085D8CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B38FB20AC0C1E0085D8CA /* main.m */; };
+		B10B390320AC0C410085D8CA /* WYLogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10B390220AC0C410085D8CA /* WYLogKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10B38E920AC0C1E0085D8CA /* WYLogKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYLogKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10B38EC20AC0C1E0085D8CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B10B38ED20AC0C1E0085D8CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B10B38EF20AC0C1E0085D8CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B10B38F020AC0C1E0085D8CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B10B38F320AC0C1E0085D8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B10B38F520AC0C1E0085D8CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10B38F820AC0C1E0085D8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B10B38FA20AC0C1E0085D8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10B38FB20AC0C1E0085D8CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B10B390220AC0C410085D8CA /* WYLogKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WYLogKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10B38E620AC0C1E0085D8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10B390320AC0C410085D8CA /* WYLogKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10B38E020AC0C1E0085D8CA = {
+			isa = PBXGroup;
+			children = (
+				B10B390220AC0C410085D8CA /* WYLogKit.framework */,
+				B10B38EB20AC0C1E0085D8CA /* WYLogKitDemo */,
+				B10B38EA20AC0C1E0085D8CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B10B38EA20AC0C1E0085D8CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10B38E920AC0C1E0085D8CA /* WYLogKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10B38EB20AC0C1E0085D8CA /* WYLogKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B10B38EC20AC0C1E0085D8CA /* AppDelegate.h */,
+				B10B38ED20AC0C1E0085D8CA /* AppDelegate.m */,
+				B10B38EF20AC0C1E0085D8CA /* ViewController.h */,
+				B10B38F020AC0C1E0085D8CA /* ViewController.m */,
+				B10B38F220AC0C1E0085D8CA /* Main.storyboard */,
+				B10B38F520AC0C1E0085D8CA /* Assets.xcassets */,
+				B10B38F720AC0C1E0085D8CA /* LaunchScreen.storyboard */,
+				B10B38FA20AC0C1E0085D8CA /* Info.plist */,
+				B10B38FB20AC0C1E0085D8CA /* main.m */,
+			);
+			path = WYLogKitDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B10B38E820AC0C1E0085D8CA /* WYLogKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10B38FF20AC0C1E0085D8CA /* Build configuration list for PBXNativeTarget "WYLogKitDemo" */;
+			buildPhases = (
+				B10B38E520AC0C1E0085D8CA /* Sources */,
+				B10B38E620AC0C1E0085D8CA /* Frameworks */,
+				B10B38E720AC0C1E0085D8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYLogKitDemo;
+			productName = WYLogKitDemo;
+			productReference = B10B38E920AC0C1E0085D8CA /* WYLogKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B10B38E120AC0C1E0085D8CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Weep Yan";
+				TargetAttributes = {
+					B10B38E820AC0C1E0085D8CA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B10B38E420AC0C1E0085D8CA /* Build configuration list for PBXProject "WYLogKitDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B10B38E020AC0C1E0085D8CA;
+			productRefGroup = B10B38EA20AC0C1E0085D8CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B10B38E820AC0C1E0085D8CA /* WYLogKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B10B38E720AC0C1E0085D8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10B38F920AC0C1E0085D8CA /* LaunchScreen.storyboard in Resources */,
+				B10B38F620AC0C1E0085D8CA /* Assets.xcassets in Resources */,
+				B10B38F420AC0C1E0085D8CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B10B38E520AC0C1E0085D8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10B38F120AC0C1E0085D8CA /* ViewController.m in Sources */,
+				B10B38FC20AC0C1E0085D8CA /* main.m in Sources */,
+				B10B38EE20AC0C1E0085D8CA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B10B38F220AC0C1E0085D8CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10B38F320AC0C1E0085D8CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B10B38F720AC0C1E0085D8CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10B38F820AC0C1E0085D8CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B10B38FD20AC0C1E0085D8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B10B38FE20AC0C1E0085D8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B10B390020AC0C1E0085D8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WYLogKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeany.WYLogKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B10B390120AC0C1E0085D8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WYLogKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeany.WYLogKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B10B38E420AC0C1E0085D8CA /* Build configuration list for PBXProject "WYLogKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10B38FD20AC0C1E0085D8CA /* Debug */,
+				B10B38FE20AC0C1E0085D8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10B38FF20AC0C1E0085D8CA /* Build configuration list for PBXNativeTarget "WYLogKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10B390020AC0C1E0085D8CA /* Debug */,
+				B10B390120AC0C1E0085D8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B10B38E120AC0C1E0085D8CA /* Project object */;
+}
